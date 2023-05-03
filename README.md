@@ -14,7 +14,8 @@ This is a basic template for creating a ScriptHookVDotNet v3 script for Grand Th
 - Select "Class Library (.NET Framework)"
 - Enter a Project name, select .NET Framework 4.8 (or latest version), edit any other fields needed and create your new project
 - Copy and paste either the template that includes the comments (very useful comments!) or the template below in this Readme that includes no comments
-- To build your solution, use Ctrl + Shift + B, navigate to your solution path > bin > Debug > <Name Of Your Script>.dll, move that to your GTA:V "Scripts" directory
+- To build your solution, use Ctrl + Shift + B, navigate to your solution directory > bin > Debug > <Name Of Your Script>.dll, move that to your GTA:V "Scripts" directory
+- It's higly suggested to create a post-build event in Visual Studio to automatically copy your compiled mod DLL to your scripts folder. Follow this simple guide here: [Visual Studio Automatic DLL Copy](Visual Studio Automatic DLL Copy)
 - For more infomration, please follow the official ScriptHookVDotNet Wiki page: [ScriptHookVDotNet v3](https://github.com/crosire/scripthookvdotnet/releases)
 - I've also created a YouTube video series on creating ScriptHookVDotNet scripts here: [GTA:V ScriptHookV Coding: Part One | Settings Up Dev Environment](https://youtu.be/OZ_SUy0AXL4)
 
